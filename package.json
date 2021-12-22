@@ -1,0 +1,28 @@
+{
+  "name": "oye-swagger-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^3.0.0",
+    "mongodb": "^4.2.2",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.30",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
